@@ -3,7 +3,7 @@ import daisyui from 'daisyui'
 
 export default defineNuxtConfig({
     devtools: { enabled: true },
-    css: ['~/assets/css/main.css'],
+    css: ['~/assets/css/fonts.css'],
     modules: [
         '@nuxtjs/eslint-module',
         '@nuxtjs/google-fonts',
@@ -22,7 +22,11 @@ export default defineNuxtConfig({
     },
     tailwindcss: {
         config: {
-            content: [],
+            content: [
+                './pages/**/*.{vue,html,js,ts}',
+                './layout/**/*.{vue,html,js,ts}',
+                './components/**/*.{vue,html,js,ts}',
+            ],
             plugins: [daisyui],
         },
     },

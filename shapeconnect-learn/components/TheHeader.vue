@@ -5,8 +5,8 @@ import DividerHorizontal from './DividerHorizontal.vue'
 
 <template>
     <DefaultMarginLayout>
-        <div class="flex flex-row justify-between">
-            <div>Logo</div>
+        <div class="flex flex-row items-center justify-between">
+            <img class="h-6 w-60" src="~/assets/svg/logo.svg" alt="Shape Connect">
             <div class="space-x-2">
                 <GhostButton>Log In</GhostButton>
                 <PrimaryButton>Sign Up free</PrimaryButton>
