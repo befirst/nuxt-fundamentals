@@ -8,8 +8,8 @@ import DividerHorizontal from './DividerHorizontal.vue'
         <div class="flex flex-row justify-between">
             <div>Logo</div>
             <div class="space-x-2">
-                <button class="btn btn-ghost">Login</button>
-                <button class="btn btn-primary">Sign up free</button>
+                <GhostButton>Log In</GhostButton>
+                <PrimaryButton>Sign Up free</PrimaryButton>
             </div>
         </div>
     </DefaultMarginLayout>
