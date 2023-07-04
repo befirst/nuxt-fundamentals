@@ -1,11 +1,12 @@
-<script>
-
-</script>
+<script></script>
 
 <template>
-    <div class="flex flex-col items-center justify-center h-screen">
+    <div class="flex gap-4 flex-col items-center justify-center h-screen">
         <h1>Not seeing what you need? Unsure where to start?</h1>
-        <h2>Talk with our expert team about the right solutions to solve your key challenges</h2>
+        <h2>
+            Talk with our expert team about the right solutions to solve your
+            key challenges
+        </h2>
         <TheQuestionnaireGate />
     </div>
 </template>

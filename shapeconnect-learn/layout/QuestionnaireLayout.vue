@@ -1,13 +1,14 @@
 <script setup lang="ts">
-import DefaultMarginLayout from '~/layout/DefaultMarginLayout.vue';
+import DefaultMarginLayout from '~/layout/DefaultMarginLayout.vue'
 </script>
 
 <template>
-    <div>
+    <div class="h-screen flex flex-col">
         <TheHeader />
-        <DefaultMarginLayout>
+        <DefaultMarginLayout class="flex flex-col flex-auto mt-16 mb-11">
             <slot />
-            <div class="bg-red h-screen w-screen"></div>
         </DefaultMarginLayout>
     </div>
 </template>
+
+<style scoped></style>
