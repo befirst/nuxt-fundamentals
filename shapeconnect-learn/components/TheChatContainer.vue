@@ -1,11 +1,25 @@
 <template>
-    <div class="chat-content-area"></div>
+    <div class="main-area">
+        <div class="chat-area"></div>
+        <div class="bottom-area">
+            <TheChatInput />
+        </div>
+    </div>
 </template>
 
-<style>
-.chat-content-area {
-    flex: 2;
+<style scoped>
+.main-area {
+    display: flex;
+    flex-direction: column;
     border: 1px solid #eeeeee;
     border-radius: 16px;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.chat-area {
+    flex: 1;
+}
+
+.bottom-area {
 }
 </style>

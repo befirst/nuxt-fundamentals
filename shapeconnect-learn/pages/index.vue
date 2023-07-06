@@ -11,7 +11,11 @@
     </div>
 </template>
 
-<style scoped>
+<style>
+:root {
+    --active-color: #007cff;
+}
+
 h1 {
     display: flex;
     align-items: center;

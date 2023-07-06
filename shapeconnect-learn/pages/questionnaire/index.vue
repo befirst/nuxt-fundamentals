@@ -16,7 +16,7 @@ import QuestionnaireLayout from '~/layout/QuestionnaireLayout.vue'
         </p>
 
         <div class="chat-container mt-7">
-            <TheChatContainer />
+            <TheChatContainer style="flex: 2" />
             <div class="chat-helper-area">
                 <TheChatStepper />
                 <div class="service-card">
