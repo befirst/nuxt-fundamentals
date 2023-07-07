@@ -1,9 +1,7 @@
 <template>
     <div class="main-area">
         <div class="chat-area"></div>
-        <div class="bottom-area">
-            <TheChatInput />
-        </div>
+        <TheChatInput />
     </div>
 </template>
 
@@ -18,8 +16,5 @@
 
 .chat-area {
     flex: 1;
-}
-
-.bottom-area {
 }
 </style>

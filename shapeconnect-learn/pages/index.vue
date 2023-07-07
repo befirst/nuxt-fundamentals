@@ -12,10 +12,6 @@
 </template>
 
 <style>
-:root {
-    --active-color: #007cff;
-}
-
 h1 {
     display: flex;
     align-items: center;

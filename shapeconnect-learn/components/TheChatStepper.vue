@@ -57,6 +57,12 @@ const finishedStepWidth = computed(() => {
     </div>
 </template>
 
+<style>
+:root {
+    --active-color: #007cff;
+}
+</style>
+
 <style scoped>
 .separators-block {
     z-index: 1;

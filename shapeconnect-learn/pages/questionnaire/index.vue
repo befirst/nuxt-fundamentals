@@ -19,13 +19,7 @@ import QuestionnaireLayout from '~/layout/QuestionnaireLayout.vue'
             <TheChatContainer style="flex: 2" />
             <div class="chat-helper-area">
                 <TheChatStepper />
-                <div class="service-card">
-                    <img
-                        class="h-10 w-10"
-                        src="~/assets/svg/avatar.svg"
-                        alt="Avatar"
-                    />
-                </div>
+                <TheServiceCard />
             </div>
         </div>
     </QuestionnaireLayout>
@@ -62,12 +56,5 @@ p {
     flex: 1;
     flex-direction: column;
     gap: 2rem;
-}
-
-.service-card {
-    background-color: #fff8eb;
-    padding: 24px;
-    border: 1px solid #ffaa00;
-    border-radius: 16px;
 }
 </style>
