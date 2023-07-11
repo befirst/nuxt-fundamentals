@@ -3,7 +3,11 @@ import daisyui from 'daisyui'
 
 export default defineNuxtConfig({
     devtools: { enabled: true },
-    css: ['~/assets/css/fonts.css'],
+    css: ['~/assets/css/fonts.css', '~/assets/css/general.css'],
+    components: [
+        { path: '~/components/chat', pathPrefix: false },
+        '~/components',
+    ],
     modules: [
         '@nuxtjs/eslint-module',
         '@nuxtjs/google-fonts',
@@ -22,12 +26,17 @@ export default defineNuxtConfig({
     },
     tailwindcss: {
         config: {
+            darkMode: 'class',
             content: [
                 './pages/**/*.{vue,html,js,ts}',
                 './layout/**/*.{vue,html,js,ts}',
                 './components/**/*.{vue,html,js,ts}',
             ],
             plugins: [daisyui],
+            daisyui: {
+                themes: false,
+                darkTheme: 'light',
+            },
         },
     },
     typescript: {

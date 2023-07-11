@@ -8,7 +8,7 @@ import DividerHorizontal from './DividerHorizontal.vue'
         <div class="flex flex-row items-center justify-between">
             <img
                 class="h-6 w-60"
-                src="~/assets/svg/logo.svg"
+                src="~/assets/svg/logo_full.svg"
                 alt="Shape Connect"
             />
             <div class="space-x-2">

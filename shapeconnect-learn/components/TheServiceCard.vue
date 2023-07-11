@@ -1,15 +1,11 @@
 <script setup lang="ts">
 import { ServiceUser } from '~/types/ServiceUser'
+import { defaultServiceUser } from '~/fixtures/ServiceUsers'
 
 const props = defineProps({
     serviceUser: {
         type: Object as PropType<ServiceUser>,
-        default: () =>
-            ({
-                name: 'Yvonne P',
-                avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
-                title: 'Solutions Expert & Former Business Owner',
-            } as ServiceUser),
+        default: () => defaultServiceUser,
     },
     message: {
         type: String,

@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import TheChatContainer from '~/components/TheChatContainer.vue'
-import TheChatStepper from '~/components/TheChatStepper.vue'
 import QuestionnaireLayout from '~/layout/QuestionnaireLayout.vue'
 </script>
 

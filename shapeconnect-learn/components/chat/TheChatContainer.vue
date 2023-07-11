@@ -1,6 +1,8 @@
 <template>
     <div class="main-area">
-        <div class="chat-area"></div>
+        <div class="chat-area">
+            <LogoMessage />
+        </div>
         <TheChatInput />
     </div>
 </template>
