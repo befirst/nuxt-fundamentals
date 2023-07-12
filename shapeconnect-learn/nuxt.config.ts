@@ -3,7 +3,7 @@ import daisyui from 'daisyui'
 
 export default defineNuxtConfig({
     devtools: { enabled: true },
-    css: ['~/assets/css/fonts.css', '~/assets/css/general.css'],
+    css: ['~/assets/css/fonts.css'],
     components: [
         { path: '~/components/chat', pathPrefix: false },
         '~/components',

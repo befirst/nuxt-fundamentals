@@ -104,13 +104,13 @@ const finishedStepWidth = computed(() => {
 
 .current-step {
     z-index: -1;
-    height: 100%;
+    height: 24px;
     background-color: #ffc800;
 }
 
 .finished-step {
     z-index: -1;
-    height: 100%;
+    height: 24px;
     background-color: var(--active-color);
 }
 </style>

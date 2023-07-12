@@ -13,7 +13,7 @@ import QuestionnaireLayout from '~/layout/QuestionnaireLayout.vue'
             experts, or resources that can help.
         </p>
 
-        <div class="chat-container mt-7">
+        <div class="chat-container mt-7 overflow-hidden">
             <TheChatContainer style="flex: 2" />
             <div class="chat-helper-area">
                 <TheChatStepper />
@@ -43,10 +43,8 @@ p {
 
 .chat-container {
     display: flex;
-    flex: 1;
-    gap: 2.5rem;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 2.5rem;
 }
 
 .chat-helper-area {

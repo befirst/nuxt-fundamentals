@@ -2,6 +2,36 @@
     <div class="main-area">
         <div class="chat-area">
             <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
+            <LogoMessage />
         </div>
         <TheChatInput />
     </div>
@@ -17,6 +47,7 @@
 }
 
 .chat-area {
-    flex: 1;
+    flex-grow: 1;
+    overflow-y: scroll;
 }
 </style>
